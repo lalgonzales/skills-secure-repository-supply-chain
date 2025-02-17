@@ -26,7 +26,7 @@ Dependency graph is enabled by default for all new public repositories. If you'r
 
 1. Navigate to the **Settings** tab.
 1. Click **Code security and analysis**.
-1. **Enable** "Dependency graph." 
+1. **Enable** "Dependency graph."
 
 ### :keyboard: Activity 1.2: Add a new dependency and view your dependency graph
 

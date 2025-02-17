@@ -20,7 +20,7 @@ Let's see how this works!
    - Change the `package-ecosystem` to `nuget`.
    - Change the `directory` to `/code/`.
    - Change the `interval` to `weekly`.
-   
+
    The `dependabot.yml` file should now look like this.
    ```yaml
    version: 2
