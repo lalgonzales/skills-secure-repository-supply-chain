@@ -51,7 +51,7 @@ jobs:
             --edit-last
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
       # START: Check practical exercise
 
       - name: Check package.json and package-lock.json for minimist version other than 1.2.5
@@ -108,7 +108,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # END: Check practical exercise
-  
+
       - name: Build message - step finished
         id: build-message-step-finish
         uses: skills/action-text-variables@v2
@@ -124,7 +124,7 @@ jobs:
             --edit-last
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
   post_next_step_content:
     name: Post next step content
     needs: [find_exercise, check_step_work]
