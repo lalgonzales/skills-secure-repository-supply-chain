@@ -17,13 +17,13 @@ namespace Attendees
             }
             entry.ExtractToFile(destFileName);
         }
-        
+
         public bool AddAttendee(string added)
         {
             if (added == "exists") {
                   return true;
             }
             return false;
-        }      
+        }
     }
 }
